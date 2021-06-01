@@ -8,18 +8,21 @@ class Test
     public static void main(String[] a) 
     {
         int[] example ={5,10,5,-1,2,30,54,100,0};
-        for(int i=0;i<example.length;i++)
-        {
-            System.out.println(example[i]);
-        }
+        test(example,"Unsorted");
         bubble_sort(example);
-        for(int i=0;i<example.length;i++)
-        {
-            System.out.println(example[i]);
-        }
+        test(example,"Sorted");
 
 
         
+    }
+    public static void test(int[] a,String message){
+        System.out.println(message);
+        System.out.println("---------------------------------------");
+        for(int i=0;i<a.length;i++)
+        {
+            System.out.println(a[i]);
+        }
+        System.out.println("---------------------------------------");
     }
 
     
