@@ -1,7 +1,7 @@
 // stuff goes here
 // testing git commit and push
 
-public Class Test 
+class Test 
 {
 
 
