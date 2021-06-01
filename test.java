@@ -31,7 +31,7 @@ public class Test {
 
 }
 
-public static void binarysearch(int[] a,int item){
+public static boolean binarysearch(int[] a,int item){
     int lower=0;
 	int upper=length(a)-1;
 	While(lower<=upper){
