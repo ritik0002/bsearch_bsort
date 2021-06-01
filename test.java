@@ -1,7 +1,8 @@
 // stuff goes here
 // testing git commit and push
 
-public class Test {
+public Class Test 
+{
 
 
     public static void main(String[] a) 
@@ -36,24 +37,27 @@ public class Test {
         }
     }
 
-}
-
-public static boolean binarysearch(int[] a,int item){
-    int lower=0; //lower list
-	int upper=length(a)-1; //upper list
-	While(lower<=upper){
+    public static boolean binarysearch(int[] a,int item)
+    {
+    int lower = 0; //lower list
+	int upper = a.length-1; //upper list
+	while(lower<=upper)
+    {
 		int midpoint=(lower+upper)/2;
-			If(a[midpoint]< item){
+			if(a[midpoint]< item)
+            {
 				lower=midpoint+1;
             }
-			else if a[midpoint]>item){
+			else if(a[midpoint]>item)
+            {
 				upper=midpoint-1;
+
             }
 			else{
 				return true;
             }
     }
 	return false;
-}
+    }
 
 }
