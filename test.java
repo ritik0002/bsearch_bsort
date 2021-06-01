@@ -6,7 +6,12 @@ public class Test {
 
     public static void main(String[] a) 
     {
-        bubble_sort()
+        int[] example=[1,5,6,8,10];
+        bubble_sort(example);
+        for(int i=0;i<example.length;i++){
+            System.out.println(example[i];)
+        }
+
         
     }
 
@@ -32,8 +37,8 @@ public class Test {
 }
 
 public static boolean binarysearch(int[] a,int item){
-    int lower=0;
-	int upper=length(a)-1;
+    int lower=0; //lower list
+	int upper=length(a)-1; //upper list
 	While(lower<=upper){
 		int midpoint=(lower+upper)/2;
 			If(a[midpoint]< item){
