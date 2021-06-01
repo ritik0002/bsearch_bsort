@@ -1,5 +1,5 @@
 // stuff goes here
-test
+
 // testing git commit and push
 
 public class Test {
@@ -29,3 +29,18 @@ public class Test {
     }
 
 }
+
+Lower=0
+	Upper=length(nlist)-1
+	While(lower<=upper)
+		Midpoint=(lower+upper)/DIV2
+			If nlist[midpoint]<searchitem then
+				Lower=midpoint+1
+			Elseif nlist[midpoint]>searchitem then
+				Upper=midpoint-1
+			Else
+				Return true
+			End if
+	End while
+	Return false
+End function
