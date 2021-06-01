@@ -6,7 +6,7 @@ public class Test {
 
     public static void main(String[] a) 
     {
-        int[] example=[1,5,6,8,10];
+        int[] example = new int[]{ 5,2,9,-2,0,50,10,-24 }
         bubble_sort(example);
         for(int i=0;i<example.length;i++){
             System.out.println(example[i];)
