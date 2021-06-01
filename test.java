@@ -1,5 +1,4 @@
 // stuff goes here
-
 // testing git commit and push
 
 public class Test {
@@ -7,9 +6,11 @@ public class Test {
 
     public static void main(String[] a) 
     {
-
+        bubble_sort()
+        
     }
 
+    
     public static void bubble_sort(int[] a)
     {
         int l = a.length;
