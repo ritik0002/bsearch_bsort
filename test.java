@@ -5,8 +5,9 @@ test
 public class Test {
 
 
-    public static main{} {
-
+    public static void main(String[] a) 
+    {
+        
     }
 
 }
