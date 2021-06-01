@@ -30,17 +30,20 @@ public class Test {
 
 }
 
-Lower=0
-	Upper=length(nlist)-1
-	While(lower<=upper)
-		Midpoint=(lower+upper)/DIV2
-			If nlist[midpoint]<searchitem then
-				Lower=midpoint+1
-			Elseif nlist[midpoint]>searchitem then
-				Upper=midpoint-1
-			Else
-				Return true
-			End if
-	End while
-	Return false
-End function
+public static void binarysearch(int[] a,int item){
+    int lower=0;
+	int upper=length(a)-1;
+	While(lower<=upper){
+		int midpoint=(lower+upper)/2;
+			If(a[midpoint]< item){
+				lower=midpoint+1;
+            }
+			else if a[midpoint]>item){
+				upper=midpoint-1;
+            }
+			else{
+				return true;
+            }
+    }
+	return false;
+}
