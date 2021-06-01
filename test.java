@@ -7,12 +7,16 @@ class Test
 
     public static void main(String[] a) 
     {
-        int[] example =new int[10];
+        int[] example ={5,10,5,-1,2,30,54,100,0};
         for(int i=0;i<example.length;i++)
         {
             System.out.println(example[i]);
         }
         bubble_sort(example);
+        for(int i=0;i<example.length;i++)
+        {
+            System.out.println(example[i]);
+        }
 
 
         
